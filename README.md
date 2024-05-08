@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# super-team-project
-
-TESTTEST
-=======
 # <Project>
 
 ## Description
@@ -76,4 +71,3 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
->>>>>>> c9155f6e23b7eea42cbf99592dba239510dc59fd

@@ -1,20 +1,88 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../pictures/bear-and-bull.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: grid;
+}
+
+header {
+  text-align: center;
+  height: 75px;
+  margin-top: 10px;
+  color: #faba0a;
+  filter: drop-shadow(3px 3px black);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 60px;
+  /*background-color: #d6b882;*/
+}
+
 .stock-chart {
-    width: 50%;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 60px;
+  width: 50%;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 60px;
 }
 
 .s {
-    font-size: 35px;
-    margin-top: 30px;
+  font-size: 35px;
+  margin-top: 30px;
 }
 
 .stock-box {
-    justify-content: center;
-    width: 40%;
-    height: auto;
+  justify-content: center;
+  width: 40%;
+  height: auto;
 }
 
 
+/* creates a button and anitations for the button */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  background-color: white !important;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  bottom: 16px;
+  margin-bottom: 20px;
+}
 
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  background-color: #d6b882 !important;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+#bull {
+  float: left;
+}
+
+#bear {
+  float: right;
+}
+
+.mgn-adj-btm {
+  margin-bottom: 20px;
+} /*jsut does a margin bottom adjustment*/

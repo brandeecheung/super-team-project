@@ -2,88 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Bulls and The Bears</title>
-  <!-- external CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <!--casues the button to be the talish color after clicked. look into it-->
-  <!-- Custom CSS -->
-  <link href="assets/css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bulls and The Bears</title>
+    <!-- external CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link href="assets/css/home.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h1>📈The Bulls & The Bears📉</h1>
-  </header>
+    <header>
+        <h1>📈The Bulls & The Bears📉</h1>
+    </header>
 
-  <section>
-    <div class="stock-chart s" id="bull">
-      <h1>The Daily Bulls</h1>
-      <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-        <h3>Estimated Rise: (random big positive number)</h3>
-        <!--Place holder area for random stock pulled from API-->
+    <section>
 
-        <p class="mgn-adj-btm" id="bull0"></p>
-        <button class="button-54" type="button">Add Stock</button>
+        <button id="chanceButton" class="my-button button-49 btn-floating pulse" type="button">Take A Chance</button>
 
-      </div>
-      <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-        <h3>Estimated Rise: (random big positive number)</h3>
-        <!--Place holder area for random stock pulled from API-->
+    </section>
 
-        <p class="mgn-adj-btm" id="bull1"></p>
-        <button class="button-54" type="button">Add Stock</button>
-
-      </div>
-      <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-        <h3>Estimated Rise: (random big positive number)</h3>
-        <!--Place holder area for random stock pulled from API-->
-
-        <p class="mgn-adj-btm" id="bull2"></p>
-        <button class="button-54" type="button">Add Stock</button>
-
-      </div>
-      </div>
-
-      <div class="stock-chart s" id="bear">
-        <h1>The Daily Bears</h1>
-        <div>
-          <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-          <h3>Estimated Fall: (random big negative number)</h3>
-          <!--Place holder area for random stock pulled from API-->
-
-          <p class="mgn-adj-btm" id="bear0"></p>
-          <button class="button-54" type="button">Add Stock</button>
-
+    <section>
+        <div class="fact-box" id="bull">
+            <h1 id="margin-set">Random Bull Facts</h1>
+            <div>
+                <ul>
+                    <li> A bulls skull has larger protective ridges over the eyes compared to cows.</li>
+                    <li>Bulls are strong, muscular, mature male cows.</li>
+                    <li>Adult bulls may weigh between 500 and 1,000 kg.</li>
+                    <li>On average, bulls can live up to 15-20 years depending on various factors.</li>
+                </ul>
+            </div>
         </div>
-        <div>
-          <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-          <h3>Estimated Fall: (random big negative number)</h3>
-          <!--Place holder area for random stock pulled from API-->
 
-          <p class="mgn-adj-btm" id="bear1"></p>
-          <button class="button-54" type="button">Add Stock</button>
-
+        <div class="fact-box" id="bear">
+            <h1 id="bear-change">Random Bear Facts</h1>
+            <div>
+                <ul>
+                    <li>Bears walk on the soles of their soft feet, so they often do not leave distinct tracks.</li>
+                    <li>The giant short-faced bear was the fastest running bear that ever lived.</li>
+                    <li>Bears are among the most intelligent land animals in North America.</li>
+                    <li>Panda bears can eat for up to 14 hours each day.</li>
+                </ul>
+            </div>
         </div>
-        <div>
-          <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
-          <h3>Estimated Fall: (random big negative number)</h3>
-          <!--Place holder area for random stock pulled from API-->
+    </section>
 
-          <p class="mgn-adj-btm" id="bear2"></p>
-          <button class="button-54" type="button">Add Stock</button>
+    <footer>
+        <h2>A Scam Co. LLC Product</h2>
+    </footer>
 
-        </div>
-    </div>
-  </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="./assets/js/stocks.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 </body>
 

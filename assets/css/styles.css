@@ -121,3 +121,8 @@ header h1 {
     height: 250px;
     resize: none;
  }
+
+ img {
+  margin: 4%;
+  padding: 4%;
+ }

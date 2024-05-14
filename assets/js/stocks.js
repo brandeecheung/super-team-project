@@ -47,3 +47,65 @@ $(document).ready(function () {
         }
     });
 });
+const requestURL =
+'https://api.unsplash.com/search/photos?query=bear&client_id=lG6nD1qGOHg2Ph-WfJwKJMQLLvv6me6Q-T2g9LLPObE';
+const button54 = document.querySelectorAll('.button-54');
+const imageDisplay = document.querySelector('.imageDisplay');
+
+button54.forEach(button => {
+    button.addEventListener('click', async () => {
+        let randomImage = await getNewImage();
+        imageDisplay.src = randomImage;
+    });
+});
+
+async function getNewImage() {
+    let randomNumber = Math.floor(Math.random() * data.results.length);
+    return fetch(requestURL)
+    .then((response) => response.json())
+    .then((data) => {
+        let allImages = data.results[randomNumber];
+        return allImages.urls.regular;
+    });
+}
+ 
+const apiURL =
+'https://api.unsplash.com/search/photos?query=bull?query=bull&client_id=lG6nD1qGOHg2Ph-WfJwKJMQLLvv6me6Q-T2g9LLPObE';
+const button = document.querySelector('.button-54');
+const images = document.querySelector('.imageDisplay');
+
+button.addEventListener('click', async () => {
+    let randomImage = await getNewImage();
+    image.src = randomImage;
+});
+
+async function getNewImage() {
+    let randomNumber = Math.floor(Math.random() * 3);
+    return fetch(requestURL)
+    .then((response) => response.json())
+    .then((data) => {
+        let allImages = data.results[randomNumber];
+        return allImages.urls.regular;
+    });
+};
+
+
+function saveData(){
+    const bear0 = document.getElementById('bear0');
+    const dataToSave = bear0.textContent;
+    const key = "data_" + bear0.id;
+    localStorage.setItem(key, dataToSave)
+};
+
+function saveData(){
+    const bear1 = document.getElementById('bear1');
+    const dataToSave = bear1.textContent;
+    const key = "data_" + bear1.id;
+    localStorage.setItem(key, dataToSave)
+};
+function saveData(){
+    const bear2 = document.getElementById('bear2');
+    const dataToSave = bear2.textContent;
+    const key = "data_" + bear2.id;
+    localStorage.setItem(key, dataToSave)
+};

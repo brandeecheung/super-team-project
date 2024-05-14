@@ -21,7 +21,7 @@
     <div class="stock-chart s" id="bull">
       <h1>The Daily Bulls</h1>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="images" alt="placeholder picture">
         <h3>Estimated Rise: (random big positive number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
@@ -30,7 +30,7 @@
 
       </div>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="images" alt="placeholder picture">
         <h3>Estimated Rise: (random big positive number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
@@ -39,7 +39,7 @@
 
       </div>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="images" alt="placeholder picture">
         <h3>Estimated Rise: (random big positive number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
@@ -52,30 +52,30 @@
     <div class="stock-chart s" id="bear">
       <h1>The Daily Bears</h1>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="imageDisplay" alt="placeholder picture">
         <h3>Estimated Fall: (random big negative number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
         <p class="mgn-adj-btm" id="bear0"></p>
-        <button class="button-54" type="button">Add Stock</button>
+        <button onclick="saveData()">Add Stock</button>
 
       </div>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="imageDisplay" alt="placeholder picture">
         <h3>Estimated Fall: (random big negative number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
         <p class="mgn-adj-btm" id="bear1"></p>
-        <button class="button-54" type="button">Add Stock</button>
+        <button class="button-54" onclick="saveData()" type="button">Add Stock</button>
 
       </div>
       <div>
-        <img src="assets/pictures/image-1.jpg" alt="placeholder picture">
+        <img src="assets/pictures/image-1.jpg" class="imageDisplay" alt="placeholder picture">
         <h3>Estimated Fall: (random big negative number)</h3>
         <!--Place holder area for random stock pulled from API-->
 
-        <p class="mgn-adj-btm" id="bear2"></p>
-        <button class="button-54" type="button">Add Stock</button>
+        <p class="mgn-adj-btm"  id="bear2"></p>
+        <button class="button-54" onclick="saveData()" type="button">Add Stock</button>
 
       </div>
     </div>
@@ -89,7 +89,7 @@
     </div>
   </section>
 
-
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="./assets/js/stocks.js"></script>

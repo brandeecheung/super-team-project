@@ -90,20 +90,20 @@ async function getNewImage() {
 };
 
 
-function saveData(){
+function saveDataB0(){
     const bear0 = document.getElementById('bear0');
     const dataToSave = bear0.textContent;
     const key = "data_" + bear0.id;
     localStorage.setItem(key, dataToSave)
 };
 
-function saveData(){
+function saveDataB1(){
     const bear1 = document.getElementById('bear1');
     const dataToSave = bear1.textContent;
     const key = "data_" + bear1.id;
     localStorage.setItem(key, dataToSave)
 };
-function saveData(){
+function saveDataB2(){
     const bear2 = document.getElementById('bear2');
     const dataToSave = bear2.textContent;
     const key = "data_" + bear2.id;

@@ -123,6 +123,7 @@ header h1 {
     background-color: white;
  }
 
+
  .home-button {
   float: right;
   width: 100px;
@@ -148,3 +149,4 @@ header h1 {
 #profile-button:active {
   background-color: #d6b882 !important;
 }
+

@@ -1,5 +1,6 @@
 $('#chanceButton').click(function() {
   window.location.href = './bullsbears.html';
+
 });
 
 $('.home-button').click(function() {
@@ -8,4 +9,5 @@ $('.home-button').click(function() {
 
 $('#profile-button').click(function() {
   window.location.href = './profile.html';
+
 });

@@ -192,3 +192,28 @@ h2 {
     line-height: 88px;
   }
 }*/
+/* Notes popup */
+#popup {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99999;
+  width: 150px;
+}
+
+#floating-notes{
+  position:relative;
+  bottom:0px;
+  left:0px;
+  z-index:10;
+  display:none;
+  opacity: 75%;
+}
+
+#floating-notes textarea {
+  width: 95%;
+  height: 250px;
+  resize: none;
+}
+
+

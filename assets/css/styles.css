@@ -121,3 +121,29 @@ header h1 {
     height: 250px;
     resize: none;
  }
+
+ .home-button {
+  float: right;
+  width: 100px;
+  height: 66px;
+  font-size: 50px;
+  background-color: white !important;
+  margin-right: 10px;
+}
+
+.home-button:active {
+  background-color: #d6b882 !important;
+}
+
+#profile-button {
+    float: left;
+    width: 100px;
+    height: 66px;
+    font-size: 50px;
+    background-color: white !important;
+    margin-left: 10px;
+}
+
+#profile-button:active {
+  background-color: #d6b882 !important;
+}

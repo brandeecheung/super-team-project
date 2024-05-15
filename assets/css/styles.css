@@ -150,3 +150,7 @@ header h1 {
   background-color: #d6b882 !important;
 }
 
+.img-size {
+  width: 200px;
+  height: 200px;
+}

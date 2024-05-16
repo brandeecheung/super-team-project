@@ -124,6 +124,12 @@ header h1 {
  }
 
 
+ img {
+  margin: 4%;
+  padding: 4%;
+ }
+
+
  .home-button {
   float: right;
   width: 100px;
@@ -150,12 +156,10 @@ header h1 {
   background-color: #d6b882 !important;
 }
 
+
+
 .img-size {
   width: 200px;
   height: 200px;
 }
 
-.txt {
-  color: white;
-  filter: drop-shadow(3px 3px black);
-}

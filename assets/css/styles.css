@@ -154,3 +154,8 @@ header h1 {
   width: 200px;
   height: 200px;
 }
+
+.txt {
+  color: white;
+  filter: drop-shadow(3px 3px black);
+}

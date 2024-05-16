@@ -120,9 +120,40 @@ header h1 {
     width: 95%;
     height: 250px;
     resize: none;
+    background-color: white;
  }
+
 
  img {
   margin: 4%;
   padding: 4%;
  }
+
+
+ .home-button {
+  float: right;
+  width: 100px;
+  height: 66px;
+  font-size: 50px;
+  background-color: white !important;
+  margin-right: 10px;
+}
+
+.home-button:active {
+  background-color: #d6b882 !important;
+}
+
+#profile-button {
+    float: left;
+    width: 100px;
+    height: 66px;
+    font-size: 50px;
+    background-color: white !important;
+    margin-left: 10px;
+}
+
+#profile-button:active {
+  background-color: #d6b882 !important;
+}
+
+

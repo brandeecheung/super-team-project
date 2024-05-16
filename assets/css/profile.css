@@ -2,3 +2,10 @@ article {
     text-align: center;
     color: white;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 400px;
+}

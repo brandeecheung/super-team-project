@@ -19,7 +19,7 @@
 <body>
   <header>
     <h1>📈The Bulls & The Bears📉</h1>
-    <div class="bearImage"></div>
+
   
 
     <button class="home-button" type="button">🏠︎</button>
@@ -29,12 +29,16 @@
 
   <section>
 
-    <div id="bull">
-      <!--Area for bull picture-->
-    </div>
+
 
     <div class="stock-chart s" id="bull">
+
+      <div>
+        <img id="bullImage" src="./assets/pictures/dabull.jpg" alt="picture of a bull">
+      </div>
+
       <h1>The Daily Bulls</h1>
+
       <div>
 
         <img class="img-size" src="assets/pictures/stock-going-up.jpg" alt="placeholder picture">
@@ -61,7 +65,7 @@
     </div>
 
     <div id="bear">
-      <!--Area for bear picture-->
+      <div class="bearImage"></div> <!--API pulled image of a bear-->
     </div>
 
     <div class="stock-chart s" id="bear">
@@ -84,6 +88,7 @@
       </div>
       <div>
         <img class="img-size" src="assets/pictures/stock-going-down.jpeg" alt="placeholder picture">
+
 
         <p class="mgn-adj-btm"  id="bear2"></p>
         <button onclick="saveDataB2()">Add Stock</button>

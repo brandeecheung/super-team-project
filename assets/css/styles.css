@@ -31,7 +31,7 @@ header h1 {
 
 .s {
   font-size: 35px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .stock-box {
@@ -159,7 +159,20 @@ header h1 {
 
 
 .img-size {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
 }
 
+
+.bearImage {
+  margin-right: 380px;
+  height: 165px;
+}
+
+#bullImage {
+  margin: 0;
+  padding: 0;
+  width: 216px;
+  height: 149px;
+  margin-left: 30px;
+}

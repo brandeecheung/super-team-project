@@ -58,13 +58,17 @@ li {
 #bull {
   float: left;
   text-align: center;
-  padding-left: 50px;
+  margin-left: 50px;
+  background-color: #559c7c99;
+  border-radius: 12px;
 }
 
 #bear {
   float: right;
   text-align: center;
-  padding-right: 50px;
+  margin-right: 50px;
+  background-color: #d34d3099;
+  border-radius: 12px;
 }
 
 footer {
@@ -72,7 +76,7 @@ footer {
   /*color: #d6b882;*/
   color: white;
   margin: 0;
-  height: 12px;
+  border-radius: 12px;
 }
 
 #margin-set {

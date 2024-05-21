@@ -31,7 +31,7 @@ header h1 {
 
 .s {
   font-size: 35px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .stock-box {
@@ -120,4 +120,59 @@ header h1 {
     width: 95%;
     height: 250px;
     resize: none;
+    background-color: white;
  }
+
+
+ img {
+  margin: 4%;
+  padding: 4%;
+ }
+
+
+ .home-button {
+  float: right;
+  width: 100px;
+  height: 66px;
+  font-size: 50px;
+  background-color: white !important;
+  margin-right: 10px;
+}
+
+.home-button:active {
+  background-color: #d6b882 !important;
+}
+
+#profile-button {
+    float: left;
+    width: 100px;
+    height: 66px;
+    font-size: 50px;
+    background-color: white !important;
+    margin-left: 10px;
+}
+
+#profile-button:active {
+  background-color: #d6b882 !important;
+}
+
+
+
+.img-size {
+  width: 300px;
+  height: 250px;
+}
+
+
+.bearImage {
+  margin-right: 380px;
+  height: 165px;
+}
+
+#bullImage {
+  margin: 0;
+  padding: 0;
+  width: 216px;
+  height: 149px;
+  margin-left: 30px;
+}

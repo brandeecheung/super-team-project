@@ -15,3 +15,14 @@ $(document).ready(function () {
       localStorage.setItem("notes", text);
   });
 });
+
+});
+
+$('.home-button').click(function() {
+  window.location.href = './index.html';
+});
+
+$('#profile-button').click(function() {
+  window.location.href = './profile.html';
+
+});

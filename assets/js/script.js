@@ -16,8 +16,6 @@ $(document).ready(function () {
   });
 });
 
-});
-
 $('.home-button').click(function() {
   window.location.href = './index.html';
 });
